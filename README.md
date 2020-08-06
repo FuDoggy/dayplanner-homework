@@ -1,46 +1,14 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# WORK DAY PLANNER
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## USAGE
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+This day planner is designed to display time slots from 9:00 AM to 5:00 PM to represent the user's work day.  When the user enters input into the task description, the app will accept and store the text value to be displayed as tasks, or to-dos, for any time slot the user wants.  The text values will be saved in local storage in the web browser, and will be saved even if the web browser is refreshed, or closed and reopened.  
 
-## User Story
+This application also features a clock that displays the correct time upon opening.  This clock is used as a reference to color the current hour in red, the future in green, and the past in gray.  The description task section will be colored according to the current hour at the time the app is opened.
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## AUTHORS AND ACKNOWLEDGEMENT
+I worked with Tim Hellman and Blake Lampkin on this assignment.  I also had the assistance my tutor, Chad Tao.  
 
-## Acceptance Criteria
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

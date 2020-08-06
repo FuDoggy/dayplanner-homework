@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-image: url("https://earth.stanford.edu/sites/default/files/styles/responsive_large/public/media/image/2019-12/starwars_gettyimages-510216640.jpg?itok=3fxMYESd");
 }
 
 textarea{
@@ -16,27 +17,28 @@ textarea{
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: white;
   border-radius: 0;
   border-bottom: 10px solid black;
+  background-image: url("https://store-images.s-microsoft.com/image/apps.40057.13982743944721264.aba8e5da-4441-4232-a0e1-21747a781f2b.0c0baeb1-555e-4ef5-af93-ca8b1bd633d7?mode=scale&q=90&h=720&w=1280&background=%23FFFFFF");
 }
 
 #currentDay {
   font-size: 36px;
   font-weight: 600em;
-  color: blue;
+  color: white
 }
 
 .description{
   white-space: pre-wrap;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 10px;
   border: 1px dashed #000000;
   border-radius: 15px;
  
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
   padding-top: 30px;
@@ -47,6 +49,8 @@ textarea{
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+  color: black;
+  background-color: #06AED5;
 }
 
 .hour {
@@ -54,21 +58,23 @@ textarea{
   color: #000000;
   border: 1px dashed #000000;
   border-radius: 15px;
+  color: black;
+  background-color: #06AED5;
 }
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: black;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color:black;
 }
 
 .saveBtn {
@@ -76,7 +82,7 @@ textarea{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
-  color: white;
+  color:black;
   text-align: center;
   padding-top: 30px;
 }
