@@ -21,10 +21,16 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+#currentDay {
+  font-size: 36px;
+  font-weight: 600em;
+  color: blue;
+}
+
 .description{
   white-space: pre-wrap;
   text-align: left;
-  padding-top: 30px;
+  padding-top: 15px;
   border: 1px dashed #000000;
   border-radius: 15px;
  
